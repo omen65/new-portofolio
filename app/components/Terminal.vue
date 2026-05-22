@@ -6,18 +6,13 @@ const inputCommand = ref('')
 const terminalBody = ref(null)
 
 const history = ref([
-  { type: 'system', text: 'Enterprise Engineering Node (Connected)' },
-  { type: 'system', text: "Access level: Admin. Available commands: stack, specialization, experience, clear." },
-  { type: 'input', text: 'stack' },
-  { 
-    type: 'output', 
-    text: `\x1b[34m[Backend]\x1b[0m Laravel, Node.js, Express, PHP
-\x1b[32m[Frontend]\x1b[0m Vue.js, Nuxt.js, React, Tailwind CSS
-\x1b[36m[Mobile]\x1b[0m Internal Mobile Applications
-\x1b[33m[Database]\x1b[0m MySQL, PostgreSQL
-\x1b[35m[Infra]\x1b[0m Docker, Linux, Nginx, PM2` 
-  }
+  { type: 'system', text: 'feri@indie-builder — Custom Software & Business Systems' },
+  { type: 'system', text: 'Access level: Admin. Available commands: stack, specialization, experience, clear.' }
 ])
+
+onMounted(() => {
+  executeCommand('stack')
+})
 
 const shortcuts = ['stack', 'specialization', 'experience', 'clear']
 
@@ -37,17 +32,17 @@ const executeCommand = (commandText) => {
   - \x1b[36mclear\x1b[0m          : Clear terminal history.`
       break
     case 'stack':
-      outputText = `\x1b[34m[Backend]\x1b[0m Laravel, Node.js, Express, PHP
-\x1b[32m[Frontend]\x1b[0m Vue.js, Nuxt.js, React, Tailwind CSS
-\x1b[36m[Mobile]\x1b[0m Internal Mobile Applications
-\x1b[33m[Database]\x1b[0m MySQL, PostgreSQL
+      outputText = `\x1b[34m[Backend]\x1b[0m PHP,Laravel,Code Igniter 4, Node.js, Express
+\x1b[32m[Frontend]\x1b[0m Vue.js, Nuxt.js, Flutter, Tailwind CSS
+\x1b[36m[Mobile]\x1b[0m Android & IOS
+\x1b[33m[Database]\x1b[0m MySQL, MongoDB
 \x1b[35m[Infra]\x1b[0m Docker, Linux, Nginx, PM2`
       break
     case 'specialization':
       outputText = `\x1b[36m> Custom ERP Systems\x1b[0m
   - Tailored enterprise resource planning for manufacturing and distribution.
 \x1b[36m> Operational Platforms\x1b[0m
-  - Lab management, logistics, POS, and digital business portals.
+  - Fully custom systems built around your business workflows and processes.
 \x1b[36m> Internal Mobile Applications\x1b[0m
   - Seamless mobile integrations with legacy backend services.`
       break
@@ -55,7 +50,12 @@ const executeCommand = (commandText) => {
       outputText = `\x1b[36m9+ Years Enterprise Software Engineering\x1b[0m
 Building scalable software architecture based on real operational workflows.
 Experienced in handling complex business requirements, long-term system maintenance,
-and cross-departmental platform integrations.`
+and cross-departmental platform integrations.
+
+\x1b[32mFreelance & Independent Projects\x1b[0m
+Handled a wide range of custom software projects independently —
+from web apps and mobile solutions to business automation tools,
+delivered end-to-end based on each client's specific needs.`
       break
     case 'clear':
       history.value = []
@@ -105,7 +105,7 @@ const handleFormSubmit = () => {
       </div>
       <div class="flex items-center gap-1.5 text-[10px] text-neutral-500 font-medium">
         <TerminalIcon class="w-3.5 h-3.5 text-neutral-500" />
-        <span>bash - feri@indie-builder:~</span>
+        <span>bash — feri@indie-builder:~</span>
       </div>
       <div class="w-12"></div>
     </div>

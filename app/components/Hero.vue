@@ -18,18 +18,18 @@ import { Terminal as TerminalIcon, Sparkles, FolderGit2, Mail } from '@lucide/vu
         <!-- Badge -->
         <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-blue/10 border border-brand-blue/35 text-brand-blue text-[11px] font-semibold tracking-wider font-mono uppercase">
           <Sparkles class="w-3 h-3 text-brand-cyan" />
-          <span>Available for Enterprise Engineering Contracts</span>
+          <span>Available for Custom Development Projects</span>
         </div>
 
         <!-- Headline -->
         <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.08] text-white">
-          Engineering <span class="text-brand-cyan">Custom ERPs</span> <br />
-          &amp; <span class="text-brand-blue">Operational Platforms</span>
+          Build <span class="text-brand-cyan">Custom Software</span> <br />
+          &amp; <span class="text-brand-blue">Business Systems</span>
         </h1>
 
         <!-- Subheadline -->
         <p class="text-neutral-400 text-sm sm:text-base lg:text-lg max-w-xl leading-relaxed">
-          Senior software engineer with <span class="text-white font-medium">9+ years of experience</span> designing, building, and maintaining business-critical systems, custom ERPs, and internal mobile applications that drive real enterprise operations.
+          Software engineer with <span class="text-white font-medium">9+ years of experience</span> building custom ERP systems, web &amp; mobile applications, and operational platforms — enterprise-grade quality, for businesses of any scale.
         </p>
 
         <!-- CTA Buttons -->
@@ -58,11 +58,11 @@ import { Terminal as TerminalIcon, Sparkles, FolderGit2, Mail } from '@lucide/vu
           </div>
           <div>
             <span class="block text-xl sm:text-2xl font-bold text-white tracking-tight">ERP</span>
-            <span class="text-[10px] text-neutral-500 uppercase tracking-widest">Enterprise Systems</span>
+            <span class="text-[10px] text-neutral-500 uppercase tracking-widest">Business Systems</span>
           </div>
           <div>
-            <span class="block text-xl sm:text-2xl font-bold text-white tracking-tight">B2B</span>
-            <span class="text-[10px] text-neutral-500 uppercase tracking-widest">Operational Tools</span>
+            <span class="block text-xl sm:text-2xl font-bold text-white tracking-tight">50+</span>
+            <span class="text-[10px] text-neutral-500 uppercase tracking-widest">Custom Projects</span>
           </div>
         </div>
 

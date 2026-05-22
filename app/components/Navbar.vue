@@ -66,7 +66,7 @@ const selectNavItem = (id) => {
         <img src="/my-icon.png" alt="icon" class="w-10 h-10" />
         <div>
           <span class="font-bold tracking-tight text-white block leading-none">Feri Anggriawan</span>
-          <span class="text-[10px] text-neutral-500 font-mono tracking-widest uppercase mt-0.5 block">Enterprise Systems Engineer</span>
+          <span class="text-[10px] text-neutral-500 font-mono tracking-widest uppercase mt-0.5 block">Senior Software Engineer</span>
         </div>
       </a>
 

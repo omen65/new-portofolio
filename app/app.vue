@@ -2,12 +2,12 @@
 import { useHead } from '#imports'
 
 useHead({
-  title: 'Feri Anggriawan | Senior Fullstack Engineer & Indie Builder',
+  title: 'Feri Anggriawan | Software Engineer & Custom App Developer',
   meta: [
-    { name: 'description', content: 'Senior Enterprise Software Engineer with 9+ years of experience building scalable custom ERP systems, operational platforms, and internal business tools.' },
-    { name: 'keywords', content: 'Feri Anggriawan, Enterprise Software Engineer, Senior Developer, Custom ERP, Operational Platforms, VueJS, NuxtJS, Node.js, Laravel' },
-    { property: 'og:title', content: 'Feri Anggriawan | Senior Enterprise Software Engineer' },
-    { property: 'og:description', content: 'Senior Enterprise Software Engineer with 9+ years of experience building scalable custom ERP systems, operational platforms, and internal business tools.' },
+    { name: 'description', content: 'Software engineer with 9+ years of experience. Specializes in custom ERP systems, web & mobile applications, and business operational platforms — for any scale.' },
+    { name: 'keywords', content: 'Feri Anggriawan, Custom Software Developer, ERP System, Web App, Mobile App, Laravel, Vue.js, Flutter, Nuxt.js, Node.js, POS System, Clinic App' },
+    { property: 'og:title', content: 'Feri Anggriawan | Software Engineer & Custom App Developer' },
+    { property: 'og:description', content: 'Software engineer with 9+ years experience building custom ERP, web & mobile apps, and business systems — enterprise quality for any project size.' },
     { property: 'og:type', content: 'website' }
   ],
   link: [

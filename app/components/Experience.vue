@@ -1,5 +1,5 @@
 <script setup>
-import { Briefcase, Milestone, Sparkles } from '@lucide/vue'
+import { Briefcase, Milestone, Sparkles, Paintbrush } from '@lucide/vue'
 
 const experiences = [
   {
@@ -12,13 +12,14 @@ const experiences = [
       'Architected scalable enhancements for Custom ERP systems based on complex operational requirements.',
       'Engineered secure internal Mobile Applications with seamless integration to legacy ERP backend services.',
       'Spearheaded the development of scalable customer and supplier portals to streamline B2B interactions.',
+      'Managed production servers, deployments, Docker migrations, database configuration, and backend performance optimization for enterprise operational systems.',
       'Led technical strategy, conducted rigorous code reviews, and mentored engineering teams.'
     ],
     icon: Briefcase,
     accent: 'border-brand-cyan text-brand-cyan bg-brand-cyan/10'
   },
   {
-    role: 'Software Engineer',
+    role: 'Full Stack Developer',
     company: 'Van Aroma',
     period: 'May 2018 - Mar 2024',
     type: 'Full-time',
@@ -33,19 +34,32 @@ const experiences = [
     accent: 'border-brand-blue text-brand-blue bg-brand-blue/10'
   },
   {
-    role: 'Enterprise Systems Consultant',
-    company: 'Independent Consulting',
-    period: '2016 - Present',
-    type: 'Contract',
-    description: 'Providing technical consultation and end-to-end development of custom operational platforms for various industries.',
+    role: 'Software Consultan & Developer ',
+    company: 'Freelance & Independent Projects',
+    period: '2019 - Present',
+    type: 'Freelance / Contract',
+    description: 'Providing end-to-end custom software development, web & mobile applications, and custom business tools tailored for diverse clients.',
     achievements: [
-      'Architected reliable database structures for diverse custom business applications.',
-      'Developed specialized Point of Sale (POS) systems and clinic management software.',
-      'Engineered laboratory information systems with complex scheduling and inventory workflows.',
-      'Managed end-to-end deployments using custom Linux and Docker infrastructure.'
+      'Architected and delivered custom operational platforms, web applications, and mobile solutions based on specific client workflows.',
+      'Developed custom operational tools including specialized Point of Sale (POS) and clinic management platforms.',
+      'Engineered specialized software systems such as laboratory automation and scheduling workflows.',
+      'Managed full-lifecycle deployment and server setups using custom Linux and Docker infrastructure.'
     ],
     icon: Sparkles,
     accent: 'border-brand-purple text-brand-purple bg-brand-purple/10'
+  },
+  {
+    role: 'Freelance Graphic Designer',
+    company: 'Self-Employed & Microstock Agencies',
+    period: '2017 - Present',
+    type: 'Freelance',
+    description: 'Creating high-quality visual designs, branding assets, and packaging layouts for global clients and digital microstock platforms.',
+    achievements: [
+      'Designed logos, branding identities, product packaging, banners, and other visual assets for global clients.',
+      'Contributed 5,000+ vector and design assets to microstock platforms, securing over 10,000+ downloads globally.'
+    ],
+    icon: Paintbrush,
+    accent: 'border-amber-500 text-amber-500 bg-amber-500/10'
   }
 ]
 </script>

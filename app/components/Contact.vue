@@ -37,9 +37,9 @@ const handleFormSubmit = () => {
       
       <!-- Section Header -->
       <div class="flex flex-col items-start gap-4 mb-16 max-w-xl text-left">
-        <span class="text-xs font-mono font-semibold uppercase tracking-widest text-neutral-500 font-mono">Consultation & Contact</span>
+        <span class="text-xs font-mono font-semibold uppercase tracking-widest text-neutral-500 font-mono">Get in Touch</span>
         <h2 class="text-3xl sm:text-4xl font-bold tracking-tight text-white leading-tight">
-          Let's Engineer Your Business Systems
+          Let's Build Your Next System
         </h2>
         <div class="h-1 w-12 bg-gradient-to-r from-brand-cyan to-brand-emerald rounded-full"></div>
       </div>
@@ -50,10 +50,10 @@ const handleFormSubmit = () => {
         <div class="lg:col-span-5 flex flex-col gap-8 text-left">
           <div>
             <h3 class="text-xl font-bold text-white tracking-tight mb-3">
-              Need a custom operational platform or ERP system?
+              Have a system or application to build?
             </h3>
             <p class="text-neutral-400 text-sm leading-relaxed">
-              I am available for contract positions, system architecture consulting, and enterprise platform development. If you need a senior engineer who deeply understands business operations to build scalable solutions, let's discuss your requirements.
+              I build custom software tailored to real business workflows — from company profiles and POS systems to clinic applications, lab management, and full-scale ERP platforms. Every project is engineered to the same standard, regardless of scope.
             </p>
           </div>
 

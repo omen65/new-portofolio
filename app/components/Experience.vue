@@ -3,60 +3,49 @@ import { Briefcase, Milestone, Sparkles } from '@lucide/vue'
 
 const experiences = [
   {
-    role: 'Lead Fullstack Engineer',
-    company: 'Enterprise SaaS Systems & Systems Lab',
-    period: '2023 - Present',
-    type: 'Fulltime',
-    description: 'Directing the architecture and security specifications of critical distribution inventory software and higher-education laboratory operations. Overseeing modular architectures using Laravel Filament, Node.js clusters, and Docker deployments.',
+    role: 'Senior Software Engineer (Assistant Manager)',
+    company: 'Van Aroma',
+    period: 'Mar 2024 - Present',
+    type: 'Full-time',
+    description: 'Leading enterprise software architecture and development of custom ERP modules and internal mobile applications to drive core business operations.',
     achievements: [
-      'Designed a multi-warehouse FIFO inventory system with automated ledger calculations.',
-      'Developed a robust multi-institution university laboratory suite with automated attendance and real-time scheduling.',
-      'Configured high-performance containerized setups using Docker, PM2 clustering, and Nginx proxy configs.'
+      'Architected scalable enhancements for Custom ERP systems based on complex operational requirements.',
+      'Engineered secure internal Mobile Applications with seamless integration to legacy ERP backend services.',
+      'Spearheaded the development of scalable customer and supplier portals to streamline B2B interactions.',
+      'Led technical strategy, conducted rigorous code reviews, and mentored engineering teams.'
     ],
     icon: Briefcase,
     accent: 'border-brand-cyan text-brand-cyan bg-brand-cyan/10'
   },
   {
-    role: 'Senior Fullstack Developer',
-    company: 'Logistics ERP & Business Automation',
-    period: '2020 - 2023',
-    type: 'Fulltime',
-    description: 'Engineered high-throughput relational databases and secure corporate inventory nodes. Managed integrations for multi-channel sales ledgers, stock reconciliations, and reporting pipelines.',
+    role: 'Software Engineer',
+    company: 'Van Aroma',
+    period: 'May 2018 - Mar 2024',
+    type: 'Full-time',
+    description: 'Engineered robust internal business platforms and digitized manual workflows to improve enterprise-wide efficiency.',
     achievements: [
-      'Engineered scalable REST APIs serving distribution chains with optimized MySQL queries.',
-      'Integrated real-time PDF generation and sales reporting layers resulting in 40% faster billing cycles.',
-      'Automated server health checks and PM2 clustering to maintain 99.9% application uptime.'
+      'Conducted deep system requirements analysis to implement new modules in the core ERP application.',
+      'Maintained and optimized existing business modules to ensure high availability and data integrity.',
+      'Developed centralized operational platforms including visitor management and B2B registration systems.',
+      'Provided critical technical support, user training, and rapid resolution for production systems.'
     ],
     icon: Briefcase,
     accent: 'border-brand-blue text-brand-blue bg-brand-blue/10'
   },
   {
-    role: 'Indie Builder & Product Founder',
-    company: 'Digital Invitation Platform (Self-Built)',
-    period: '2022 - Present',
-    type: 'Product / Indie Builder',
-    description: 'Conceived, built, and launched a multi-tenant digital invitation software-as-a-service. Integrated customizable templates, dynamic checkout gateways, and instant delivery layers serving real paying consumers.',
+    role: 'Enterprise Systems Consultant',
+    company: 'Independent Consulting',
+    period: '2016 - Present',
+    type: 'Contract',
+    description: 'Providing technical consultation and end-to-end development of custom operational platforms for various industries.',
     achievements: [
-      'Bootstrapped platform from scratch, reaching profitable organic growth since launch.',
-      'Architected custom frontend rendering algorithms enabling drag-and-drop template customizations.',
-      'Configured automated invoice generation and automated payment webhook integrations.'
-    ],
-    icon: Milestone,
-    accent: 'border-brand-purple text-brand-purple bg-brand-purple/10'
-  },
-  {
-    role: 'Fullstack Engineer & UI Specialist',
-    company: 'Microstock & Digital Visual Agencies',
-    period: '2016 - 2020',
-    type: 'Freelance & Part-time',
-    description: 'Designed web assets and built digital tools. Managed creative workflows utilizing Python script systems to batch-generate and process over 15,000 AI-assisted high-definition vectors and graphic assets.',
-    achievements: [
-      'Delivered UI kits, dark themes, and complex layouts for freelance global clients.',
-      'Built automated image tagging pipelines using Node.js and computer vision models.',
-      'Created microstock vector assets featured in global catalog systems.'
+      'Architected reliable database structures for diverse custom business applications.',
+      'Developed specialized Point of Sale (POS) systems and clinic management software.',
+      'Engineered laboratory information systems with complex scheduling and inventory workflows.',
+      'Managed end-to-end deployments using custom Linux and Docker infrastructure.'
     ],
     icon: Sparkles,
-    accent: 'border-brand-emerald text-brand-emerald bg-brand-emerald/10'
+    accent: 'border-brand-purple text-brand-purple bg-brand-purple/10'
   }
 ]
 </script>
@@ -69,7 +58,7 @@ const experiences = [
       <div class="flex flex-col items-center text-center gap-4 mb-20 max-w-xl mx-auto">
         <span class="text-xs font-mono font-semibold uppercase tracking-widest text-neutral-500 font-mono">Professional Path</span>
         <h2 class="text-3xl sm:text-4xl font-bold tracking-tight text-white leading-tight">
-          10 Years of Engineering Value
+          9 Years of Engineering Value
         </h2>
         <div class="h-1 w-12 bg-gradient-to-r from-brand-cyan to-brand-emerald rounded-full"></div>
       </div>

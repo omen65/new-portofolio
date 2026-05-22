@@ -63,13 +63,10 @@ const selectNavItem = (id) => {
     <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
       <!-- Logo -->
       <a href="#home" class="flex items-center gap-2 group" @click="selectNavItem('home')">
-        <div class="relative w-8 h-8 rounded-lg bg-neutral-900 border border-white/10 flex items-center justify-center overflow-hidden transition-transform group-hover:scale-105">
-          <div class="absolute inset-0 bg-gradient-to-tr from-brand-blue/30 to-brand-cyan/30 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-          <Code2 class="w-4 h-4 text-brand-cyan group-hover:text-white transition-colors" />
-        </div>
+        <img src="/my-icon.png" alt="icon" class="w-10 h-10" />
         <div>
           <span class="font-bold tracking-tight text-white block leading-none">Feri Anggriawan</span>
-          <span class="text-[10px] text-neutral-500 font-mono tracking-widest uppercase mt-0.5 block">Fullstack Engineer</span>
+          <span class="text-[10px] text-neutral-500 font-mono tracking-widest uppercase mt-0.5 block">Enterprise Systems Engineer</span>
         </div>
       </a>
 
@@ -99,7 +96,7 @@ const selectNavItem = (id) => {
           class="relative group overflow-hidden px-4 py-2 rounded-lg bg-white text-black font-semibold text-xs transition-all hover:bg-neutral-100 hover:shadow-[0_0_15px_rgba(255,255,255,0.15)] flex items-center gap-1.5"
         >
           <Cpu class="w-3.5 h-3.5 transition-transform group-hover:rotate-45" />
-          <span>Indie Builder</span>
+          <span>Discuss Projects</span>
         </a>
       </div>
 

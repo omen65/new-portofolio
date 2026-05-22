@@ -6,88 +6,84 @@ const activeTab = ref('software')
 
 const softwareProjects = [
   {
-    title: 'Distributor Inventory & Sales System',
-    description: 'A comprehensive, SaaS-ready distributor inventory and sales architecture built with Laravel and Filament. Engineered for multi-entity distribution chains with rigorous stock accounting controls.',
-    techs: ['Laravel', 'Filament', 'MySQL'],
+    title: 'Custom ERP Ecosystem',
+    description: 'A comprehensive custom Enterprise Resource Planning system tailored for manufacturing and distribution. Manages inventory, sales, and complex business logic.',
+    techs: ['Laravel', 'Vue.js', 'MySQL', 'Docker'],
     highlights: [
-      'Multi-warehouse synchronization',
-      'FIFO inventory valuation mechanism',
-      'Comprehensive real-time stock ledger',
-      'Purchase & sales pipelines',
-      'Unified reporting infrastructure',
-      'Multi-tenant SaaS-ready architecture'
+      'Module-based architecture',
+      'Complex requirements analysis',
+      'Automated business logic',
+      'Extensive user training & support',
+      'Containerized deployments'
     ]
   },
   {
-    title: 'University Lab Information System',
-    description: 'An integrated laboratory operations suite for educational institutions. Designed to manage physical lab inventory, schedule student reservations, log equipment usage, and trace student attendance.',
-    techs: ['Laravel', 'Vue.js', 'MySQL'],
+    title: 'Internal Operations Mobile App',
+    description: 'A mobile application designed to support company operations and integrate seamlessly with existing ERP backend services.',
+    techs: ['Mobile Dev', 'REST API', 'Security'],
     highlights: [
-      'Inventory control & asset tagging',
-      'Interactive lab calendar scheduler',
-      'Equipment loan approval flow',
-      'Unified attendance tracker',
-      'Multi-institution tenant separation'
+      'ERP data integration',
+      'Performance & UX optimization',
+      'Secure company data handling',
+      'Real-time operational sync'
     ]
   },
   {
-    title: 'Digital Invitation Platform',
-    description: 'A custom, commercial digital invitation template builder running in active production since 2022. Handles organic transactions and provides instant custom layout distribution.',
+    title: 'B2B Enterprise Portals',
+    description: 'A suite of web-based company information systems including customer portals, supplier registrations, and visitor management systems.',
     techs: ['PHP', 'JavaScript', 'MySQL'],
     highlights: [
-      'Organic paid customer transactions',
-      'Integrated checkout payment flow',
-      'Instant digital asset rendering',
-      'Dynamic builder template modules',
-      'Whitelabel custom invitation sites'
+      'Customer & Supplier Portals',
+      'Visitor Management System',
+      'Automated registration workflows',
+      'Centralized data aggregation'
     ]
   },
   {
-    title: 'Automation & AI Tools',
-    description: 'A specialized cluster of automated batching scripts and intelligence pipelines designed to automate content creation and microstock asset preparation.',
-    techs: ['Node.js', 'Automation APIs', 'AI APIs'],
+    title: 'Specialized Operational Platforms',
+    description: 'Various custom business applications tailored for specific workflows, including POS systems, clinic management, and laboratory automation.',
+    techs: ['Vue.js', 'Node.js', 'Laravel'],
     highlights: [
-      'AI-assisted script generator pipeline',
-      'Multi-channel API sync pipeline',
-      'Automatic tagging & categorization',
-      'Internal developer productivity plugins'
+      'Point of Sale (POS) Systems',
+      'Midwife Clinic Applications',
+      'Laboratory Management Apps',
+      'Process automation'
     ]
   }
 ]
 
 const designProjects = [
   {
-    title: 'Apex Modern SaaS UI Kit',
-    description: 'A premium, comprehensive design system crafted in Figma for next-generation dark-themed SaaS platforms, dashboards, and developer portals.',
-    techs: ['Figma', 'UI Design', 'Design Tokens'],
+    title: 'Midwife Clinic System',
+    description: 'A dedicated application to manage patient records, maternity scheduling, and operational billing for midwife clinics.',
+    techs: ['Vue.js', 'Laravel', 'MySQL'],
     highlights: [
-      'Advanced component variants & variables',
-      'Clean minimalist dark-mode designs',
-      '150+ responsive layout modules',
-      'Extensive interactive status previews',
-      'Scalable token design infrastructure'
+      'Patient health records tracking',
+      'Appointment & schedule management',
+      'Integrated billing & invoicing',
+      'Secure data privacy controls'
     ]
   },
   {
-    title: 'Aether Premium Dark Theme',
-    description: 'A curated collection of minimalist dark UI assets, vector icons, and sleek style templates featured in leading digital asset markets.',
-    techs: ['Illustrator', 'Theme Assets', 'Vector Art'],
+    title: 'POS & Retail Systems',
+    description: 'Custom Point of Sale solutions tailored for small and medium businesses to manage sales, stock, and daily transactions seamlessly.',
+    techs: ['Vue.js', 'Tailwind', 'PHP'],
     highlights: [
-      'Curated harmony color systems',
-      'Ultra-sharp vector illustrations',
-      'Ready-to-use theme resource bundles',
-      'Multi-format design source files'
+      'Real-time transaction processing',
+      'Daily sales reporting',
+      'Inventory synchronization',
+      'User-friendly cashier interface'
     ]
   },
   {
-    title: 'Nebula Programmatic Art Pack',
-    description: 'A package of high-fidelity futuristic abstract graphics, generative art structures, and vector backdrops tailored for developer landing pages.',
-    techs: ['Illustrator', 'AI Generation', 'Microstock'],
+    title: 'Company Profile & Web Presence',
+    description: 'High-quality, responsive company profile websites designed to establish a strong digital presence and showcase business services.',
+    techs: ['Nuxt.js', 'Tailwind', 'Vite'],
     highlights: [
-      'High-resolution abstract canvases',
-      'Programmatically scaled vector nodes',
-      'Featured on multiple tech publications',
-      'Optimized lightweight vector files'
+      'Modern aesthetics & animations',
+      'SEO optimized structures',
+      'Fast loading performance',
+      'Custom content management'
     ]
   }
 ]
@@ -102,9 +98,9 @@ const designProjects = [
         
         <!-- Left: Text -->
         <div class="flex flex-col gap-4 max-w-xl">
-          <span class="text-xs font-mono font-semibold uppercase tracking-widest text-neutral-500 font-mono">Product Showcase</span>
+          <span class="text-xs font-mono font-semibold uppercase tracking-widest text-neutral-500 font-mono">Systems Showcase</span>
           <h2 class="text-3xl sm:text-4xl font-bold tracking-tight text-white leading-tight">
-            Engineered Works
+            Engineered Platforms
           </h2>
           <div class="h-1 w-12 bg-gradient-to-r from-brand-blue to-brand-cyan rounded-full"></div>
         </div>
@@ -121,7 +117,7 @@ const designProjects = [
             ]"
           >
             <Terminal class="w-4 h-4" />
-            <span>Software Engineer</span>
+            <span>Enterprise Systems</span>
           </button>
           
           <button
@@ -133,8 +129,8 @@ const designProjects = [
                 : 'text-neutral-400 hover:text-white'
             ]"
           >
-            <Paintbrush class="w-4 h-4" />
-            <span>Graphic Design</span>
+            <Terminal class="w-4 h-4" />
+            <span>Business Portals</span>
           </button>
         </div>
 

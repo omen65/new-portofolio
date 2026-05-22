@@ -8,28 +8,28 @@ import { Terminal as TerminalIcon, Sparkles, FolderGit2, Mail } from '@lucide/vu
     class="relative min-h-screen pt-32 pb-20 flex items-center justify-center bg-grid-pattern overflow-hidden"
   >
     <!-- Radial mesh glows for depth -->
-    <div class="absolute inset-0 mesh-glow-1 pointer-events-none"></div>
-    <div class="absolute inset-0 mesh-glow-2 pointer-events-none"></div>
+    <div class="absolute inset-0 mesh-glow-1 opacity-50 pointer-events-none"></div>
+    <div class="absolute inset-0 mesh-glow-2 opacity-50 pointer-events-none"></div>
 
     <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-16 items-center relative z-10 w-full">
       <!-- Left Column: Copy & Presentation -->
       <div class="lg:col-span-7 flex flex-col items-start gap-6 text-left">
         
         <!-- Badge -->
-        <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-blue/10 border border-brand-blue/35 text-brand-blue text-[11px] font-semibold tracking-wider font-mono uppercase animate-pulse-slow">
+        <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-blue/10 border border-brand-blue/35 text-brand-blue text-[11px] font-semibold tracking-wider font-mono uppercase">
           <Sparkles class="w-3 h-3 text-brand-cyan" />
-          <span>Open to Freelance &amp; SaaS Collaboration</span>
+          <span>Available for Enterprise Engineering Contracts</span>
         </div>
 
         <!-- Headline -->
         <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.08] text-white">
-          Building <span class="text-cyan-blue-gradient">Real Products</span> <br />
-          for <span class="text-glow-gradient">Real Problems</span>
+          Engineering <span class="text-brand-cyan">Custom ERPs</span> <br />
+          &amp; <span class="text-brand-blue">Operational Platforms</span>
         </h1>
 
         <!-- Subheadline -->
         <p class="text-neutral-400 text-sm sm:text-base lg:text-lg max-w-xl leading-relaxed">
-          I'm a fullstack engineer with <span class="text-white font-medium">10 years of experience</span> focused on building multi-tenant SaaS, internal automation pipelines, robust backend architectures, and high-quality creative designs.
+          Senior software engineer with <span class="text-white font-medium">9+ years of experience</span> designing, building, and maintaining business-critical systems, custom ERPs, and internal mobile applications that drive real enterprise operations.
         </p>
 
         <!-- CTA Buttons -->
@@ -53,16 +53,16 @@ import { Terminal as TerminalIcon, Sparkles, FolderGit2, Mail } from '@lucide/vu
         <!-- Quick Stats -->
         <div class="grid grid-cols-3 gap-8 border-t border-white/5 mt-10 pt-8 w-full font-mono">
           <div>
-            <span class="block text-xl sm:text-2xl font-bold text-white tracking-tight">10+</span>
-            <span class="text-[10px] text-neutral-500 uppercase tracking-widest">Years Exp</span>
+            <span class="block text-xl sm:text-2xl font-bold text-white tracking-tight">9+</span>
+            <span class="text-[10px] text-neutral-500 uppercase tracking-widest">Years Experience</span>
           </div>
           <div>
-            <span class="block text-xl sm:text-2xl font-bold text-white tracking-tight">100%</span>
-            <span class="text-[10px] text-neutral-500 uppercase tracking-widest">Real Systems</span>
+            <span class="block text-xl sm:text-2xl font-bold text-white tracking-tight">ERP</span>
+            <span class="text-[10px] text-neutral-500 uppercase tracking-widest">Enterprise Systems</span>
           </div>
           <div>
-            <span class="block text-xl sm:text-2xl font-bold text-white tracking-tight">15k+</span>
-            <span class="text-[10px] text-neutral-500 uppercase tracking-widest">Visual Assets</span>
+            <span class="block text-xl sm:text-2xl font-bold text-white tracking-tight">B2B</span>
+            <span class="text-[10px] text-neutral-500 uppercase tracking-widest">Operational Tools</span>
           </div>
         </div>
 

@@ -30,10 +30,10 @@ const scrollToTop = () => {
         <div class="flex flex-col gap-3">
           <div class="flex items-center justify-center md:justify-start gap-2">
             <span class="font-bold text-white tracking-tight text-lg">Feri Anggriawan</span>
-            <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-brand-blue/15 border border-brand-blue/30 text-brand-blue uppercase">Indie Builder</span>
+            <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-brand-blue/15 border border-brand-blue/30 text-brand-blue uppercase">Enterprise Systems Engineer</span>
           </div>
           <p class="text-neutral-400 text-sm max-w-sm">
-            Fullstack engineer with 10 years of experience building real systems for real businesses and creative digital products.
+            Senior software engineer with 9+ years of experience architecting and building scalable custom ERPs, internal tools, and enterprise operational platforms.
           </p>
         </div>
 

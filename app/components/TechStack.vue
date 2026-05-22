@@ -3,28 +3,28 @@ import { Layout, Server, Database, Settings } from '@lucide/vue'
 
 const categories = [
   {
-    name: 'Frontend Core',
-    icon: Layout,
-    color: 'text-brand-cyan bg-brand-cyan/5 border-brand-cyan/15',
-    items: ['Vue.js', 'Nuxt.js', 'React', 'Tailwind CSS', 'JavaScript']
-  },
-  {
-    name: 'Backend Systems',
+    name: 'Backend Architecture',
     icon: Server,
-    color: 'text-brand-blue bg-brand-blue/5 border-brand-blue/15',
-    items: ['Node.js', 'Express.js', 'Laravel', 'PHP', 'REST API']
+    color: 'text-brand-cyan bg-brand-cyan/5 border-brand-cyan/15',
+    items: ['Node.js', 'Laravel', 'PHP', 'Express', 'RESTful APIs']
   },
   {
-    name: 'Database & Infrastructure',
+    name: 'Frontend & Mobile',
+    icon: Layout,
+    color: 'text-brand-blue bg-brand-blue/5 border-brand-blue/15',
+    items: ['Vue.js', 'Nuxt.js', 'React', 'Tailwind CSS', 'Internal Mobile Apps']
+  },
+  {
+    name: 'Database Engineering',
     icon: Database,
     color: 'text-brand-purple bg-brand-purple/5 border-brand-purple/15',
-    items: ['MySQL', 'Docker', 'Nginx', 'Linux Server', 'Git', 'PM2']
+    items: ['MySQL', 'PostgreSQL', 'Database Design', 'Query Optimization']
   },
   {
-    name: 'Systems & Architecture',
+    name: 'Infrastructure & DevOps',
     icon: Settings,
     color: 'text-brand-emerald bg-brand-emerald/5 border-brand-emerald/15',
-    items: ['Automation Pipelines', 'AI Workflows', 'SaaS Architectures', 'Multi-tenant Tech', 'System Design']
+    items: ['Docker', 'Linux', 'Nginx', 'PM2', 'CI/CD Pipelines']
   }
 ]
 </script>

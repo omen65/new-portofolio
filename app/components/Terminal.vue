@@ -6,22 +6,20 @@ const inputCommand = ref('')
 const terminalBody = ref(null)
 
 const history = ref([
-  { type: 'system', text: 'Feri Anggriawan System Shell v4.0.0 (ttyS001)' },
-  { type: 'system', text: "Type 'help' or click the action shortcuts below." },
-  { type: 'input', text: 'neofetch' },
+  { type: 'system', text: 'Enterprise Engineering Node (Connected)' },
+  { type: 'system', text: "Access level: Admin. Available commands: stack, specialization, experience, clear." },
+  { type: 'input', text: 'stack' },
   { 
     type: 'output', 
-    text: `   .---.       \x1b[36mOS\x1b[0m: macOS Carbon / Linux Server
-  /     \\      \x1b[36mRole\x1b[0m: Senior Fullstack Engineer
-  \\     /      \x1b[36mExperience\x1b[0m: 10+ Years (Established 2016)
-   '---'       \x1b[36mSpecialties\x1b[0m: Multi-tenant SaaS, Business Tools, High Performance APIs
-               \x1b[36mFrontend\x1b[0m: Vue.js, Nuxt.js, React, Tailwind CSS
-               \x1b[36mBackend\x1b[0m: Node.js, Laravel (PHP), Express
-               \x1b[36mInfra\x1b[0m: Docker, Nginx, Linux, PM2, MySQL` 
+    text: `\x1b[34m[Backend]\x1b[0m Laravel, Node.js, Express, PHP
+\x1b[32m[Frontend]\x1b[0m Vue.js, Nuxt.js, React, Tailwind CSS
+\x1b[36m[Mobile]\x1b[0m Internal Mobile Applications
+\x1b[33m[Database]\x1b[0m MySQL, PostgreSQL
+\x1b[35m[Infra]\x1b[0m Docker, Linux, Nginx, PM2` 
   }
 ])
 
-const shortcuts = ['about', 'skills', 'projects', 'neofetch', 'clear']
+const shortcuts = ['stack', 'specialization', 'experience', 'clear']
 
 const executeCommand = (commandText) => {
   const cmd = commandText.trim().toLowerCase()
@@ -33,48 +31,38 @@ const executeCommand = (commandText) => {
   switch (cmd) {
     case 'help':
       outputText = `Available commands:
-  - \x1b[36mneofetch\x1b[0m : Display general profile overview & tech specs.
-  - \x1b[36mabout\x1b[0m    : Read about Feri's software engineering ethos.
-  - \x1b[36mskills\x1b[0m   : Inspect detailed tech stack.
-  - \x1b[36mprojects\x1b[0m : List key projects in Feri's portfolio.
-  - \x1b[36mclear\x1b[0m    : Clear the terminal history.`
+  - \x1b[36mstack\x1b[0m          : View enterprise technology stack.
+  - \x1b[36mspecialization\x1b[0m : View core engineering focuses.
+  - \x1b[36mexperience\x1b[0m     : View professional summary.
+  - \x1b[36mclear\x1b[0m          : Clear terminal history.`
       break
-    case 'neofetch':
-      outputText = `   .---.       \x1b[36mOS\x1b[0m: macOS Carbon / Linux Server
-  /     \\      \x1b[36mRole\x1b[0m: Senior Fullstack Engineer
-  \\     /      \x1b[36mExperience\x1b[0m: 10+ Years (Established 2016)
-   '---'       \x1b[36mSpecialties\x1b[0m: Multi-tenant SaaS, Business Tools, High Performance APIs
-               \x1b[36mFrontend\x1b[0m: Vue.js, Nuxt.js, React, Tailwind CSS
-               \x1b[36mBackend\x1b[0m: Node.js, Laravel (PHP), Express
-               \x1b[36mInfra\x1b[0m: Docker, Nginx, Linux, PM2, MySQL`
+    case 'stack':
+      outputText = `\x1b[34m[Backend]\x1b[0m Laravel, Node.js, Express, PHP
+\x1b[32m[Frontend]\x1b[0m Vue.js, Nuxt.js, React, Tailwind CSS
+\x1b[36m[Mobile]\x1b[0m Internal Mobile Applications
+\x1b[33m[Database]\x1b[0m MySQL, PostgreSQL
+\x1b[35m[Infra]\x1b[0m Docker, Linux, Nginx, PM2`
       break
-    case 'about':
-      outputText = `I am a software engineer with 10+ years of experience building real systems.
-I prefer engineering robust systems that run in production over basic demos.
-I deploy, manage, and maintain my own servers, and actively craft UI assets as a freelance designer.`
+    case 'specialization':
+      outputText = `\x1b[36m> Custom ERP Systems\x1b[0m
+  - Tailored enterprise resource planning for manufacturing and distribution.
+\x1b[36m> Operational Platforms\x1b[0m
+  - Lab management, logistics, POS, and digital business portals.
+\x1b[36m> Internal Mobile Applications\x1b[0m
+  - Seamless mobile integrations with legacy backend services.`
       break
-    case 'skills':
-      outputText = `\x1b[32m[Frontend]\x1b[0m: Vue.js, Nuxt.js, React, Tailwind CSS, JavaScript
-\x1b[34m[Backend]\x1b[0m: Node.js, Express.js, Laravel, PHP, REST API
-\x1b[35m[Database & Infra]\x1b[0m: MySQL, Docker, Nginx, Linux, Git, PM2
-\x1b[33m[Other]\x1b[0m: AI Workflows, Automation Scripting, System Design, Multi-tenancy`
-      break
-    case 'projects':
-      outputText = `1. \x1b[36mDistributor Inventory & Sales System\x1b[0m (Laravel + Filament + MySQL)
-   - Multi warehouse, FIFO inventory, Stock ledger, SaaS architecture.
-2. \x1b[36mUniversity Lab Information System\x1b[0m (Laravel + Vue + MySQL)
-   - Lab scheduling, borrowing flow, inventory, and attendance tracking.
-3. \x1b[36mDigital Invitation Platform\x1b[0m (PHP + JS + MySQL)
-   - Running in production since 2022, handling real customer payments.
-4. \x1b[36mAutomation & AI Tools\x1b[0m (Node.js + APIs)
-   - Pipelines, custom script systems, and AI workflows.`
+    case 'experience':
+      outputText = `\x1b[36m9+ Years Enterprise Software Engineering\x1b[0m
+Building scalable software architecture based on real operational workflows.
+Experienced in handling complex business requirements, long-term system maintenance,
+and cross-departmental platform integrations.`
       break
     case 'clear':
       history.value = []
       inputCommand.value = ''
       return
     default:
-      outputText = `Shell: command not found: ${commandText}. Type 'help' for options.`
+      outputText = `Command not recognized: ${commandText}. Type 'help' for options.`
   }
 
   history.value.push({ type: 'output', text: outputText })

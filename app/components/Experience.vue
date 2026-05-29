@@ -27,7 +27,7 @@ const experiences = [
     achievements: [
       'Conducted deep system requirements analysis to implement new modules in the core ERP application.',
       'Maintained and optimized existing business modules to ensure high availability and data integrity.',
-      'Developed centralized operational platforms including visitor management and B2B registration systems.',
+      'Developed a wide range of operational platforms and web applications including visitor management, B2B registration portals, corporate profile websites, and subsidiary company platforms.',
       'Provided critical technical support, user training, and rapid resolution for production systems.'
     ],
     icon: Briefcase,
@@ -53,9 +53,9 @@ const experiences = [
     company: 'Self-Employed & Microstock Agencies',
     period: '2017 - Present',
     type: 'Freelance',
-    description: 'Creating high-quality visual designs, branding assets, and packaging layouts for global clients and digital microstock platforms.',
+    description: 'Creating high-quality visual designs, branding assets, and packaging layouts for local and global clients and digital microstock platforms.',
     achievements: [
-      'Designed logos, branding identities, product packaging, banners, and other visual assets for global clients.',
+      'Designed logos, branding identities, product packaging, banners, and other visual assets for local and global clients.',
       'Contributed 5,000+ vector and design assets to microstock platforms, securing over 10,000+ downloads globally.'
     ],
     icon: Paintbrush,

@@ -59,7 +59,7 @@ const handleFormSubmit = () => {
               Have a system or application to build?
             </h3>
             <p class="text-neutral-400 text-sm leading-relaxed">
-              I build custom software tailored to real business workflows — from company profiles and POS systems to clinic applications, lab management, and full-scale ERP platforms. Every project is engineered to the same standard, regardless of scope.
+              I specialize in building custom software tailored to real business needs — analyzing your operational workflows and engineering systems that work the way your business actually runs. Enterprise-grade quality, whether it's a specialized tool or a full-scale platform.
             </p>
           </div>
 

@@ -88,10 +88,10 @@ const scrollToTop = () => {
       </div>
 
       <!-- Tech stack credits line -->
-      <div class="border-t border-white/5 mt-12 pt-6 flex flex-col md:flex-row items-center justify-between text-xs text-neutral-600 gap-4">
+      <!-- <div class="border-t border-white/5 mt-12 pt-6 flex flex-col md:flex-row items-center justify-between text-xs text-neutral-600 gap-4">
         <p>Crafted from scratch with Nuxt 3, Vue, and Tailwind CSS.</p>
         <p class="font-mono text-[10px]">VER. 2026.1 // INFRASTRUCTURE READY</p>
-      </div>
+      </div> -->
     </div>
   </footer>
 </template>

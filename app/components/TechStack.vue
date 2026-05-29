@@ -6,25 +6,25 @@ const categories = [
     name: 'Backend Architecture',
     icon: Server,
     color: 'text-brand-cyan bg-brand-cyan/5 border-brand-cyan/15',
-    items: ['Node.js', 'Laravel', 'PHP', 'Express', 'RESTful APIs']
+    items: ['System Design','Node.js', 'Laravel', 'PHP', 'Express', 'RESTful APIs']
   },
   {
     name: 'Frontend & Mobile',
     icon: Layout,
     color: 'text-brand-blue bg-brand-blue/5 border-brand-blue/15',
-    items: ['Vue.js', 'Nuxt.js', 'React', 'Tailwind CSS', 'Internal Mobile Apps']
+    items: ['Vue.js', 'Nuxt.js', 'Tailwind CSS', 'Flutter','Figma', 'Responsive Design']
   },
   {
     name: 'Database Engineering',
     icon: Database,
     color: 'text-brand-purple bg-brand-purple/5 border-brand-purple/15',
-    items: ['MySQL', 'PostgreSQL', 'Database Design', 'Query Optimization']
+    items: ['MySQL', 'MongoDB', 'Database Design', 'Query Optimization', 'Data Migrations','Automated Backups']
   },
   {
     name: 'Infrastructure & DevOps',
     icon: Settings,
     color: 'text-brand-emerald bg-brand-emerald/5 border-brand-emerald/15',
-    items: ['Docker', 'Linux', 'Nginx', 'PM2', 'CI/CD Pipelines']
+    items: ['Docker', 'Linux', 'Nginx', 'PM2', 'CI/CD Pipelines','Server Monitoring', 'Performance Optimization','Security Hardening']
   }
 ]
 </script>

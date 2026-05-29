@@ -32,11 +32,11 @@ const executeCommand = (commandText) => {
   - \x1b[36mclear\x1b[0m          : Clear terminal history.`
       break
     case 'stack':
-      outputText = `\x1b[34m[Backend]\x1b[0m PHP,Laravel,Code Igniter 4, Node.js, Express
-\x1b[32m[Frontend]\x1b[0m Vue.js, Nuxt.js, Flutter, Tailwind CSS
-\x1b[36m[Mobile]\x1b[0m Android & IOS
-\x1b[33m[Database]\x1b[0m MySQL, MongoDB
-\x1b[35m[Infra]\x1b[0m Docker, Linux, Nginx, PM2`
+      outputText = `\x1b[36m[Systems]\x1b[0m ERP & Business Platforms
+\x1b[34m[Backend]\x1b[0m Laravel, Node.js, REST APIs
+\x1b[32m[Frontend]\x1b[0m Vue.js, Nuxt.js, Tailwind CSS
+\x1b[35m[Mobile]\x1b[0m Figma, Flutter Cross-Platform Apps
+\x1b[33m[Infrastructure]\x1b[0m Docker, Linux, Nginx`
       break
     case 'specialization':
       outputText = `\x1b[36m> Custom ERP Systems\x1b[0m
